@@ -7,12 +7,11 @@ def eratos(N) :
   prime[0] = False
   prime[1] = False
 
-  for i in range(2,int(n)) :
+  for i in range(2,int(n)+1) :
     if(prime[i] is not False):
       for j in range(i,N) :
         if i*j >= N:
           break
-        elif i * j<=N:
-          prime[i*j] = False
+        prime[i*j] = False
 
   return prime
