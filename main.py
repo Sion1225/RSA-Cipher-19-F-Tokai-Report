@@ -8,4 +8,4 @@ test_N = 20
 #p = eratos(test_N)
 #for i in range(N):
 #  print(f"{i}={p[i]}")
-print(Search_P(N))
+#print(Search_P(N))
