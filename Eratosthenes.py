@@ -11,4 +11,5 @@ def eratos(N) :
       while j<N :
         prime.insert(j,False)
         j=j+i
+        
   return prime
