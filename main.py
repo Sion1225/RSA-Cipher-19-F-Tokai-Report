@@ -5,6 +5,7 @@ e = 65537 # (Key)
 C = 23161252532832885956948212465951275785 #Cipher
 #Secret key d
 test_N = 20
-p = eratos(test_N)
-for i in range(test_N):
-  print(f"{i}={p[i]}")
+#p = eratos(test_N)
+#for i in range(N):
+#  print(f"{i}={p[i]}")
+print(Search_P(N))
