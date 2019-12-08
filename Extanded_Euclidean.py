@@ -7,4 +7,4 @@ def Ex_eu(a,b) :
     x0, x1 = x1, x0 - n * x1
     y0, y1 = y1, y0 - n * y1
 
-  return x0, y0
+  return x0
