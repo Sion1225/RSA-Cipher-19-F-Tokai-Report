@@ -7,6 +7,9 @@ C = 23161252532832885956948212465951275785 #Cipher
 p = 34442988190330466543
 q = 35256781043348862163
 #Secret key d
+# m = c^d mod N
 test_N = 1209
-x0,y0 = Ex_eu(e,(p-1)*(q-1))
-print(f"{x0}\n{y0}\n{x0+y0}")
+d,y = Ex_eu(e,(p-1)*(q-1)) #x=d
+print(f"Secret key d is {d}")
+m = pow(C,d,N)
+print(f"Plaintext m is {m}")
